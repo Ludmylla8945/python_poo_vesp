@@ -14,7 +14,7 @@ class Livro:
 
     # Método para verificar se o livro é um clássico (mais de 50 anos)
     def verificarIdadeLivro(self):
-        anoAtual = 2024  # Você pode mudar este valor para um cálculo dinâmico, se preferir
+        anoAtual = 2024  #Pode mudar este valor para um cálculo dinâmico, se preferir
         idadeLivro = anoAtual - self.anoPublicacao
         
         if idadeLivro > 50:
